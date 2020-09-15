@@ -1,0 +1,24 @@
+<!DOCTYPe html>
+<head>
+  <title>Cos test</title>
+  <link rel="stylesheet" href="css/cos.css">
+  <script src="js/cos.js"></script>
+</head>
+
+<body>
+  <h1>Modify the Dom</h1>
+
+  <button onclick="document.getElementById('stuff').innerHTML=' You clicked on &quot;Here&quot;';">Here</button>
+ 
+ <button onclick="document.getElementById('stuff').innerHTML = 'You clicked on &quot;There&quot;';"> There</button>
+
+ <p>This code shouldn't change at all.</p>
+ <p id="stuff">This will show where you clicked</p>
+ <p>this shouldn't change either.</p>
+ 
+
+ <button type ="button" onclick="openHere()">Open Here</button>
+ <button type ="button" onclick="closeHere()">Close Here</button>
+
+ <p id="oPara" > now you go see how here go close when you click the close button or open to open am</p> 
+</body>
